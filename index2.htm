@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Website Designer</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #4b4b4b;
+            color: #ffffff;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #3e3d3d;
+            padding: 10px 20px;
+            /* position: fixed; */
+            /* top: 0%; */
+            /* right: 0%; */
+            /* left: 0%; */
+        }
+
+        .navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 16px;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+
+        .navbar input[type="text"] {
+            padding: 5px;
+            border: none;
+            border-radius: 3px;
+        }
+
+        .navbar input[type="submit"] {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 3px;
+            background-color: aqua;
+            color: white;
+            cursor: pointer;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+            /* margin-top: 50px; */
+        }
+
+        .image-container {
+            max-width: 20%;
+            margin-right: 40px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .text-container {
+            max-width: 60%;
+        }
+
+        .text-container h1 {
+            font-size: 3rem;
+        }
+
+        .text-container h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .text-container p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: aqua;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#"><span style="color: aqua; font-size: 30px ; font-weight: bold;">Mona</span> Ali</a>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">about me</a>
+            <a href="#">services</a>
+            <a href="#">latest project</a>
+            <a href="#">contact me</a>
+        </div>
+        <form>
+            <input type="text" placeholder="Search">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+
+    <div class="container">
+        <div class="image-container">
+            <img src="Snapchat-2059519119.png" alt="Profile Picture">
+        </div>
+        <div class="text-container">
+            <h1>about <span style="color: aqua;">me</span></h1>
+            <h2>website Designer!</h2>
+            <p style="font-style: italic;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quaerat dolorem vel laboriosam inventore veritatis delectus praesentium temporibus quod dignissimos. Culpa, optio animi assumenda quam odio magni velit ea laborum quisquam eaque debitis perferendis possimus pariatur, quis placeat vel consectetur numquam repellendus, vitae quia aperiam. Eaque dolorem similique architecto explicabo.</p>
+            <a href="#" class="btn">more about</a>
+        </div>
+    </div>
+</body>
+</html>
